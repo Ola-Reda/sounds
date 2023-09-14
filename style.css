@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(161, 100, 223);
+    font-family: 'Poppins', sans-serif;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box button {
+    background-color: rebeccapurple;
+    color: white;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    padding: 24px 48px;
+    margin: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    transition: all .5s ease-in;
+}
+.box button:hover {
+    opacity: 0.9;
+}
