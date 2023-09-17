@@ -20,7 +20,7 @@ function stopSounds() {
 
 
 
-// another way with create buttons in index file with ids
+// another way with create buttons in index file
 // const buttons = document.querySelectorAll("button")
 // buttons.forEach(button => {
 //     button.addEventListener('click', ()=> {
